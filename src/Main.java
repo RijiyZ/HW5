@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int clientOC = 0; // 1-2 zadanie
+        int clientOC = 1; // 1-2 zadanie
+        System.out.println("1-2 Задание:");
         int clientDeviceYear = 2022;
         if (clientOC == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
@@ -12,14 +13,16 @@ public class Main {
         } else if (clientOC == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-        int year = 1978; // 3 zadanie
-        if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
+        int year = 1488; // 3 zadanie
+        System.out.println("3 Задание:");
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " Является високосным годом");
         } else {
             System.out.println(year + " Не я вляется високосным годом");
         }
 
-        int deliveryDistance = 2053; // 4 задание
+        int deliveryDistance = 95; // 4 задание
+        System.out.println("4 Задание:");
         int deliveryTime = 0;
         deliveryTime = deliveryDistance / 40;
         deliveryTime ++;
@@ -42,7 +45,8 @@ public class Main {
             System.out.println("Потребуется дней: " + deliveryTime);
         }*/
 
-        int monthNumber = 44; // 5 zadanie
+        int monthNumber = 3; // 5 zadanie
+        System.out.println("5 Задание:");
         switch (monthNumber) {
             case 1:
                 System.out.println("Январь");
